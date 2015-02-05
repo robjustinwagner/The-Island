@@ -1,0 +1,53 @@
+/* Copyright (c) 2012, Gerhard Reitmayr
+   All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met: 
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer. 
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+
+#include "objload.h"
+#include "GRTown2014_Wagner\Examples\Suburbs.H" 
+#include "GRTown2014_Wagner\GrTown_PCH.H"
+
+void objLoader(char ** argv){
+    if(1){
+		Castle::m = obj::loadModelFromFile(argv[1]);
+#if 1
+		std::cout << Castle::m << std::endl;
+		glPushMatrix();
+		glBegin(GL_TRIANGLES);
+		for (int it = 0; it <= Castle::m.faces.size(); ++it)
+		{
+			//glVertex3f(normals[it->norm_indices[0] -1 ].x, normals[it->norm_indices[0] -1 ].y, normals[it->norm_indices[0] -1 ].z);
+			glVertex3f(Castle::m.vertex[it].x, Castle::m.vertex[it].y, vectors[it->vert_indices[0] - 1].z);
+			//glVertex3f(normals[it->norm_indices[1] -1 ].x, normals[it->norm_indices[1] -1 ].y, normals[it->norm_indices[1] -1 ].z);
+			glVertex3f(vectors[it->vert_indices[1] - 1].x, vectors[it->vert_indices[1] - 1].y, vectors[it->vert_indices[1] - 1].z);
+			//glVertex3f(normals[it->norm_indices[2] -1 ].x, normals[it->norm_indices[2] -1 ].y, normals[it->norm_indices[2] -1 ].z);
+			glVertex3f(vectors[it->vert_indices[2] - 1].x, vectors[it->vert_indices[2] - 1].y, vectors[it->vert_indices[2] - 1].z);
+		}
+		glEnd();
+		glPopMatrix();
+#else
+        std::cout << m.vertex.size()/3 << " vertices, " << m.texCoord.size()/2 << 
+                     " texcoords, " << m.normal.size()/3 << " normals, " <<
+                     m.face.size()/3 << " faces" << std::endl;
+#endif
+    }
+
+}

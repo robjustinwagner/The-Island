@@ -1,0 +1,66 @@
+CS 559 - PROJECT 2 - FEATURE LIST
+=================================
+
+1] by bob wagner (cs login: bob | id: 906-424-8603)
+
+2] For this project, I *completely* scrapped the graphics town idea and made an entirely different universe! I present:
+	
+	<=== Abyssal Dream Island ==> Strange energies command the environment here; venture at your own risk!
+
+3/4]
+
++ multiple objects moving at any time:
+	- particles
+	- Mysterious Sphere 1
+	- etc.
++ multiple behaviors:
+	- Float
+	- Orbit
+	- etc.
++ multiple types of buildings / scenery
+	- volcano height map model
+	- mountains
+	- island
+	- fire trees
+	- etc.
++ multiple new textures:
+	- volcano skin (non-flat)
+	- island rock skin (non-flat)
+	- mountains skin (non-flat)
+	- lava
+	- skybox
+	- etc.
++ shader pairs:
+	- lavaShader -> in volcano -> (procedural texture) -> real clk/time
+	- lightShader -> Mysterious Ball -> (affected by lighting)
+	- groundShader -> open doors (early morning will be black, (late at night is red) -> (affected by time of day) -> timeOfDay
++ affected by time of day
+	- doors to volcano open at night
++ "advanced" texture mapping:
+	- skybox that properly moves with camera location (always stays in center)
++ curved surface object(s):
+	- goblet wireframe (surface of revolution)
+
++ techincal challenges:
+/*
+*	Four levels of succeeding at a technical challenge:
+*		1 - You thought about doing it and got started.
+*		2 - You got it implemented, and almost working. It’s probably close.
+*		3 - It works, and you can show that it works on simple examples.
+*		4 - You use it for something cool.
+*/
+	- skybox that properly moves with camera location (always stays in center)
+	- surface of revolution (goblets)
+	- particle engine (magical dust coming out of goblets)
+	- height map (volcanodw)
+	- external model loader
+		> spent a significant amount of time trying to get external model loader to work, 
+		  was able to parse .OBJ files into their respective verticies, normals, faces, etc.
+		  but was unable to acutally load them into the world
+		> I'm thinking this part would receive a 2/4 on the scale above.
+	- others I may have missed	
+	- Extra Feature: Wireframe Mode
+
+5] The particle engine in conjunction with the wire-frame goblets were one of my favorite additions to the project.
+
+6] sources attributed in code

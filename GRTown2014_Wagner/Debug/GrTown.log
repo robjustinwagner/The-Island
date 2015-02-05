@@ -1,0 +1,204 @@
+﻿Build started 12/13/2014 2:26:53 AM.
+     1>Project "C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\GrTown.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         C:/"Program Files (x86)/FLTK 1.3.2"/bin/fluid.exe -c GraphicsTownUI.fl
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\FLTK 1.3.2\include" /I"C:\Program Files\glew\include" /I.. /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Examples\Objects.cpp GraphicsTownUI.cxx Main.cpp TownViewWidget.cpp
+         GraphicsTownUI.cxx
+         Objects.cpp
+     1>Examples\Objects.cpp(92): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(94): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(96): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(98): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(101): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(103): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(105): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(107): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(110): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(114): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(116): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(119): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(121): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(123): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(125): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(352): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(354): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(355): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(356): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(362): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(364): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(366): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(367): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(397): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Examples\Objects.cpp(400): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Examples\Objects.cpp(403): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Examples\Objects.cpp(405): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Examples\Objects.cpp(413): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Examples\Objects.cpp(416): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Examples\Objects.cpp(418): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>Examples\Objects.cpp(424): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Examples\Objects.cpp(442): warning C4305: '+=' : truncation from 'double' to 'float'
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         TownViewWidget.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\GrTown.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\FLTK 1.3.2\lib" /LIBPATH:"C:\Program Files\glew\lib\Release\Win32\\" fltkd.lib fltkgld.lib comctl32.lib wsock32.lib opengl32.lib glu32.lib fltkjpegd.lib fltkpngd.lib fltkzlibd.lib fltkimagesd.lib glew32s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\GrTown.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\GrTown.lib" /MACHINE:X86 /SAFESEH Debug\libtarga.obj
+         Debug\ShaderTools.obj
+         Debug\Texture.obj
+         Debug\Behavior.obj
+         Debug\DrawingState.obj
+         Debug\DrawUtils.obj
+         Debug\Cars.obj
+         Debug\Objects.obj
+         Debug\SimpleBehaviors.obj
+         Debug\Suburbs.obj
+         Debug\FlyCamera.obj
+         Debug\GraphicsTownUI.obj
+         Debug\GrObject.obj
+         Debug\GrWorld.obj
+         Debug\Main.obj
+         Debug\MMatrix.obj
+         Debug\Drive.obj
+         Debug\Roads.obj
+         Debug\TownViewWidget.obj
+         ..\Utilities\glaux.lib
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>fltkd.lib(case.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(filename_ext.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(filename_list.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(filename_match.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_abort.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_add_idle.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_arc.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_arci.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_ask.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Bitmap.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Box.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_boxtype.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Browser.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Browser_.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Button.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_color.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_compose.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_cursor.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_curve.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Device.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_dnd.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Double_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_draw.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_draw_image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_draw_pixmap.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_font.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_get_key.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_get_system_colors.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_grab.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Group.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_gtk.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Input.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Input_.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_labeltype.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_line_style.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_lock.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Menu.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Menu_.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Menu_add.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Menu_Button.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Menu_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Overlay_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Pixmap.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_plastic.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Preferences.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_read_image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_rect.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Repeat_Button.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Return_Button.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_round_box.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Scrollbar.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Shared_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_shortcut.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Single_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Slider.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_symbols.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Tiled_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Tooltip.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_utf.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_utf8.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Valuator.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Value_Output.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Value_Slider.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(fl_vertex.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Widget.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_Window_hotspot.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_XBM_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(Fl_XPM_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(flstring.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(is_spacing.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(numericsort.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(scandir.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(screen_xywh.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkd.lib(vsnprintf.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkgld.lib(Fl_Gl_Choice.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkgld.lib(Fl_Gl_Device_Plugin.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkgld.lib(Fl_Gl_Window.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkgld.lib(gl_draw.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jcomapi.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jaricom.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdarith.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdapimin.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdapistd.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdatasrc.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdcoefct.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdcolor.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jddctmgr.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdhuff.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdinput.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdmainct.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdmarker.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdmaster.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdmerge.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdpostct.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jdsample.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jerror.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jidctflt.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jidctfst.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jidctint.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jmemmgr.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jmemnobs.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jquant1.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jquant2.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkjpegd.lib(jutils.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(png.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngerror.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngget.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngmem.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngread.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngrio.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngrtran.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngrutil.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngset.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkpngd.lib(pngtrans.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(adler32.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(crc32.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(inffast.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(inflate.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(inftrees.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkzlibd.lib(zutil.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkimagesd.lib(Fl_BMP_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkimagesd.lib(Fl_GIF_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkimagesd.lib(Fl_JPEG_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>fltkimagesd.lib(Fl_PNG_Image.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4204: 'C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         GrTown.vcxproj -> C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\Debug\GrTown.exe
+     1>Done Building Project "C:\Users\Robert\Google Drive\559\Project_2\GRTown2014_Wagner\GRTown2014_Wagner\GrTown.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.88
